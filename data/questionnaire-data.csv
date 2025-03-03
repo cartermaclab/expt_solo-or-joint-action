@@ -1,0 +1,166 @@
+﻿question,theme,sub_theme,initial_theme,code,frequency
+1,utility,max instrumental rewards,maximized points,more points,9
+2,utility,max instrumental rewards,maximized points,more points,3
+3,utility,max instrumental rewards,maximized points,more points,3
+4,utility,max instrumental rewards,maximized points,more points,2
+5,utility,max instrumental rewards,maximized points,more points,1
+1,utility,red instrumental costs,maximized speed,faster,31
+2,utility,red instrumental costs,maximized speed,faster,8
+3,utility,red instrumental costs,maximized speed,faster,10
+4,utility,red instrumental costs,maximized speed,faster,4
+5,utility,red instrumental costs,maximized speed,faster,4
+1,utility,red instrumental costs,maximized speed,slower with helper,9
+2,utility,red instrumental costs,maximized speed,slower with helper,6
+3,utility,red instrumental costs,maximized speed,slower with helper,2
+4,utility,red instrumental costs,maximized speed,slower with helper,1
+5,utility,red instrumental costs,maximized speed,slower with helper,1
+1,utility,red cognitive costs,minimized coordination,avoided coordination,5
+2,utility,red cognitive costs,minimized coordination,avoided coordination,1
+3,utility,red cognitive costs,minimized coordination,avoided coordination,0
+4,utility,red cognitive costs,minimized coordination,avoided coordination,0
+5,utility,red cognitive costs,minimized coordination,avoided coordination,1
+1,utility,max instrumental rewards,maximized points,clear more boxes,8
+2,utility,max instrumental rewards,maximized points,clear more boxes,17
+3,utility,max instrumental rewards,maximized points,clear more boxes,2
+4,utility,max instrumental rewards,maximized points,clear more boxes,1
+5,utility,max instrumental rewards,maximized points,clear more boxes,2
+1,utility,min task constraints,easiest way,easy,11
+2,utility,min task constraints,easiest way,easy,3
+3,utility,min task constraints,easiest way,easy,1
+4,utility,min task constraints,easiest way,easy,1
+5,utility,min task constraints,easiest way,easy,3
+1,utility,min task constraints,spatial arrangement,proximity,1
+2,utility,min task constraints,spatial arrangement,proximity,6
+3,utility,min task constraints,spatial arrangement,proximity,1
+4,utility,min task constraints,spatial arrangement,proximity,5
+5,utility,min task constraints,spatial arrangement,proximity,1
+1,utility,red cognitive costs,minimized decisions required,avoid partner thinking,2
+2,utility,red cognitive costs,minimized decisions required,avoid partner thinking,0
+3,utility,red cognitive costs,minimized decisions required,avoid partner thinking,0
+4,utility,red cognitive costs,minimized decisions required,avoid partner thinking,0
+5,utility,red cognitive costs,minimized decisions required,avoid partner thinking,1
+1,utility,red cognitive costs,minimized coordination,avoid partner timing,6
+2,utility,red cognitive costs,minimized coordination,avoid partner timing,0
+3,utility,red cognitive costs,minimized coordination,avoid partner timing,0
+4,utility,red cognitive costs,minimized coordination,avoid partner timing,0
+5,utility,red cognitive costs,minimized coordination,avoid partner timing,0
+1,utility,red instrumental costs,minimized movement,more efficient,3
+2,utility,red instrumental costs,minimized movement,more efficient,0
+3,utility,red instrumental costs,minimized movement,more efficient,0
+4,utility,red instrumental costs,minimized movement,more efficient,0
+5,utility,red instrumental costs,minimized movement,more efficient,2
+1,utility,min task constraints,easiest way,easy less boxes,2
+2,utility,min task constraints,easiest way,easy less boxes,5
+3,utility,min task constraints,easiest way,easy less boxes,7
+4,utility,min task constraints,easiest way,easy less boxes,16
+5,utility,min task constraints,easiest way,easy less boxes,2
+1,utility,min task constraints,spatial arrangement,box arrangement,5
+2,utility,min task constraints,spatial arrangement,box arrangement,9
+3,utility,min task constraints,spatial arrangement,box arrangement,1
+4,utility,min task constraints,spatial arrangement,box arrangement,6
+5,utility,min task constraints,spatial arrangement,box arrangement,0
+1,utility,red cognitive costs,minimized decisions required,avoid making similar choices,3
+2,utility,red cognitive costs,minimized decisions required,avoid making similar choices,5
+3,utility,red cognitive costs,minimized decisions required,avoid making similar choices,1
+4,utility,red cognitive costs,minimized decisions required,avoid making similar choices,0
+5,utility,red cognitive costs,minimized decisions required,avoid making similar choices,0
+1,utility,red cognitive costs,minimized decisions required,easy making similar choices,0
+2,utility,red cognitive costs,minimized decisions required,easy making similar choices,0
+3,utility,red cognitive costs,minimized decisions required,easy making similar choices,3
+4,utility,red cognitive costs,minimized decisions required,easy making similar choices,8
+5,utility,red cognitive costs,minimized decisions required,easy making similar choices,0
+1,utility,red instrumental costs,maximized speed,speed over accuracy,0
+2,utility,red instrumental costs,maximized speed,speed over accuracy,0
+3,utility,red instrumental costs,maximized speed,speed over accuracy,0
+4,utility,red instrumental costs,maximized speed,speed over accuracy,0
+5,utility,red instrumental costs,maximized speed,speed over accuracy,1
+1,utility,red instrumental costs,minimized movement,limit movement,0
+2,utility,red instrumental costs,minimized movement,limit movement,0
+3,utility,red instrumental costs,minimized movement,limit movement,2
+4,utility,red instrumental costs,minimized movement,limit movement,0
+5,utility,red instrumental costs,minimized movement,limit movement,1
+1,utility,red cognitive costs,minimized decisions required,limit decisions,0
+2,utility,red cognitive costs,minimized decisions required,limit decisions,0
+3,utility,red cognitive costs,minimized decisions required,limit decisions,1
+4,utility,red cognitive costs,minimized decisions required,limit decisions,0
+5,utility,red cognitive costs,minimized decisions required,limit decisions,0
+1,utility,red instrumental costs,maximized speed,moved faster with helper,0
+2,utility,red instrumental costs,maximized speed,moved faster with helper,0
+3,utility,red instrumental costs,maximized speed,moved faster with helper,1
+4,utility,red instrumental costs,maximized speed,moved faster with helper,1
+5,utility,red instrumental costs,maximized speed,moved faster with helper,0
+1,social value,max intrinsic reward,intrinsic reward,satisfying,1
+2,social value,max intrinsic reward,intrinsic reward,satisfying,0
+3,social value,max intrinsic reward,intrinsic reward,satisfying,1
+4,social value,max intrinsic reward,intrinsic reward,satisfying,0
+5,social value,max intrinsic reward,intrinsic reward,satisfying,0
+1,social value,max intrinsic reward,intrinsic reward,challenge,1
+2,social value,max intrinsic reward,intrinsic reward,challenge,0
+3,social value,max intrinsic reward,intrinsic reward,challenge,4
+4,social value,max intrinsic reward,intrinsic reward,challenge,1
+5,social value,max intrinsic reward,intrinsic reward,challenge,0
+1,social value,prosocial,fairness,too many times,1
+2,social value,prosocial,fairness,too many times,6
+3,social value,prosocial,fairness,too many times,2
+4,social value,prosocial,fairness,too many times,13
+5,social value,prosocial,fairness,too many times,0
+1,social value,prosocial,empathy,felt bad,0
+2,social value,prosocial,empathy,felt bad,1
+3,social value,prosocial,empathy,felt bad,6
+4,social value,prosocial,empathy,felt bad,1
+5,social value,prosocial,empathy,felt bad,0
+1,social value,max intrinsic reward,intrinsic reward,improved,0
+2,social value,max intrinsic reward,intrinsic reward,improved,0
+3,social value,max intrinsic reward,intrinsic reward,improved,4
+4,social value,max intrinsic reward,intrinsic reward,improved,1
+5,social value,max intrinsic reward,intrinsic reward,improved,2
+1,social value,prosocial,empathy,wanted to include helper,0
+2,social value,prosocial,empathy,wanted to include helper,0
+3,social value,prosocial,empathy,wanted to include helper,9
+4,social value,prosocial,empathy,wanted to include helper,1
+5,social value,prosocial,empathy,wanted to include helper,0
+1,social value,max intrinsic reward,intrinsic reward,enjoyable,0
+2,social value,max intrinsic reward,intrinsic reward,enjoyable,0
+3,social value,max intrinsic reward,intrinsic reward,enjoyable,5
+4,social value,max intrinsic reward,intrinsic reward,enjoyable,2
+5,social value,max intrinsic reward,intrinsic reward,enjoyable,1
+1,social value,prosocial,empathy,felt responsible for helper,0
+2,social value,prosocial,empathy,felt responsible for helper,0
+3,social value,prosocial,empathy,felt responsible for helper,1
+4,social value,prosocial,empathy,felt responsible for helper,0
+5,social value,prosocial,empathy,felt responsible for helper,0
+1,social value,prosocial,empathy,avoid upsetting helper,0
+2,social value,prosocial,empathy,avoid upsetting helper,0
+3,social value,prosocial,empathy,avoid upsetting helper,0
+4,social value,prosocial,empathy,avoid upsetting helper,1
+5,social value,prosocial,empathy,avoid upsetting helper,0
+1,flexibility,flexibility,flexibility,adapted to helper,0
+2,flexibility,flexibility,flexibility,adapted to helper,0
+3,flexibility,flexibility,flexibility,adapted to helper,1
+4,flexibility,flexibility,flexibility,adapted to helper,0
+5,flexibility,flexibility,flexibility,adapted to helper,4
+1,flexibility,flexibility,flexibility,changed strategy,1
+2,flexibility,flexibility,flexibility,changed strategy,2
+3,flexibility,flexibility,flexibility,changed strategy,0
+4,flexibility,flexibility,flexibility,changed strategy,1
+5,flexibility,flexibility,flexibility,changed strategy,0
+1,movement path,movement path,movement path,movement path,1
+2,movement path,movement path,movement path,movement path,0
+3,movement path,movement path,movement path,movement path,0
+4,movement path,movement path,movement path,movement path,1
+5,movement path,movement path,movement path,movement path,5
+1,reliability,reliability,reliability,avoid relying on helper,1
+2,reliability,reliability,reliability,avoid relying on helper,0
+3,reliability,reliability,reliability,avoid relying on helper,0
+4,reliability,reliability,reliability,avoid relying on helper,0
+5,reliability,reliability,reliability,avoid relying on helper,0
+1,reliability,reliability,reliability,more reliable alone,1
+2,reliability,reliability,reliability,more reliable alone,0
+3,reliability,reliability,reliability,more reliable alone,0
+4,reliability,reliability,reliability,more reliable alone,0
+5,reliability,reliability,reliability,more reliable alone,0
+1,reliability,reliability,reliability,more accurate alone,1
+2,reliability,reliability,reliability,more accurate alone,0
+3,reliability,reliability,reliability,more accurate alone,0
+4,reliability,reliability,reliability,more accurate alone,0
+5,reliability,reliability,reliability,more accurate alone,0

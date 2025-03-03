@@ -1,0 +1,334 @@
+---
+title: \textbf{Preferences for costly cooperation are highly individualized}
+shorttitle: "Costly cooperation"
+author:
+  - name: Mikayla Lalli
+    orcid: 0000-0003-2589-7216
+    affiliations:
+      - id: id1
+  - name: Nour Al Afif
+    orcid: 0009-0006-8948-8795
+    affiliations: 
+      - ref: id1
+  - name: Jiaqiao Tang
+    orcid: 0009-0003-0265-4569
+    affiliations:
+      - ref: id1
+  - name: Hibaa Hasan
+    affiliations:
+      - id: id2
+        name: McMaster University
+        department: Department of Psychology, Neuroscience & Behaviour
+  - name: Enuri Dissanayake
+    affiliations:
+      - id: id3
+        name: McMaster University
+        department: School of Interdisciplinary Science
+  - name: Vida Sussman
+    affiliations:
+      - ref: id2
+  - name: Rakshith Lokesh
+    orcid: 0000-0001-8592-5392
+    affiliations:
+      - id: id4
+        name: Northeastern University
+        department: College of Engineering
+  - name: Scott Rathwell
+    orcid: 0000-0001-8775-1664
+    affiliations:
+      - id: id5
+        name: University of Lethbridge
+        department: Department of Kinesiology & Physical Education
+  - name: Joshua G.A. Cashaback
+    orcid: 0000-0002-8642-6648
+    affiliations:
+      - name: "Department of Biomedical Engineering, University of Delaware"
+      - name: "Department of Mechanical Engineering, University of Delaware"
+  - name: Michael J. Carter \vspace{0.25cm}
+    corresponding: true
+    orcid: 0000-0002-0675-4271
+    email: cartem11@mcmaster.ca
+    affiliations:
+      - ref: id1
+author-note:
+  status-changes: 
+    affiliation-change: ~
+    deceased: ~
+  disclosures:
+    study-registration: ~
+    data-sharing: ~
+    related-report: ~
+    conflict-of-interest: The authors have no conflicts of interest to disclose.
+    financial-support: "This work was supported by the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC), McMaster University (MJC), and the National Science Foundation (NSF: 2146888; JGAC)."
+    gratitude: We thank Dr. Arianna Curioni for methodological clarifications about their protocol when we were programming our version of the box-clearing task. 
+    authorship-agreements: ~
+abstract: "When deciding between action alternatives, we use information about the costs and rewards of each action to choose an appropriate plan. @curioni2022 recently found that participants had a strong preference for completing a virtual box-clearing task cooperatively with a partner rather than alone, despite it being more motorically and cognitively costly. Participants completed the task standing beside each other in close proximity, which may have created a social pressure to cooperate through a need to manage one’s reputation or a sense of commitment. Here, 50 human pairs---each composed of a “Decision-maker” and “Helper”---completed a box-clearing task modeled after Curioni et al. while seated farther away and out of view of one another. In 50% of trials, Decision-makers were forced to complete the task alone or with the Helper. In the remaining 50% of trials, Decision-makers chose to work alone or cooperatively. When working together, participants were required to synchronize their movements without communication or feedback of their partner’s movements. Decision-makers answered open-ended questions regarding why and when they chose to complete the task alone and together. We found a slight preference for individual action over costly joint action, yet this preference was not significantly different from chance. Inductive thematic analysis revealed two dominant themes: “chose actions with greater instrumental utility” and “chose actions with greater social value”. The identified themes suggest that preferences to cooperate are highly individualized, and that cooperative actions may provide additional social rewards that drive preferences for  cooperation even when it is more costly."
+keywords: [joint action, social decision-making, utility, costs, thematic analysis]
+bibliography: 
+  - ../references.bib
+  - ../r-references.bib
+format:
+  apaquarto-pdf:
+    documentmode: doc
+mainfont: Roboto
+header-insert: |
+  \usepackage[sfdefault,light]{roboto}
+  \usepackage{caption}
+  \usepackage{setspace}
+  \captionsetup[figure]{font=doublespacing,justification=justified}
+  \captionsetup[table]{font=doublespacing}
+  \usepackage{csquotes}
+  \MakeOuterQuote{"}
+  \raggedbottom
+  \usepackage{hyperref}
+  \hypersetup{
+    hidelinks,
+    colorlinks=false,
+    }
+  \urlstyle{same}
+floatsintext: true
+numbered-lines: false
+---
+
+When choosing between action alternatives, it has been suggested that individuals weigh the costs they will incur against the potential benefits they could receive [@gallivan2018;@gordon2021;@kahneman2012;@shadmehr2016]. Indeed, individuals tend to optimize their decisions by choosing actions that maximize their rewards while minimizing their costs [e.g., @jara-ettinger2016;@todorov2004]. This behavior is well captured in utility models such as the Naive Utility Calculus [@jara-ettinger2016;@jara-ettinger2020] wherein the utility (usefulness) of an action is equated to the rewards (direct payoff) of successfully achieving the desired action outcome minus the costs incurred (resources used) while acting. Importantly, these evaluations are subjective and susceptible to social influences [@mosteller1951;@rangel2008]. Instrumental rewards related to the action outcome include the completion of the task itself, as well as additional rewards the actor may earn for successfully completing the task, such as money or points. Movement-related costs include energy expenditure and biomechanical factors associated with performing the action [@todorov2004;@moskowitz2023;@shadmehr2016;@cos2014;@cos2011]. Interestingly, performing a joint action is more costly---both cognitively and motorically---than performing the same action alone as individuals must represent, predict, and/or monitor the performance of their partner [@knoblich2011;@sebanz2006;@sebanz2021]. Such coordinated actions therefore create opportunities for spatial and temporal errors between co-actors that do not occur when acting alone; thus, increasing the overall cost function of joint action. An open question is how individuals decide to engage or not engage in a joint action, and whether this decision is based on principles of optimization and utility.
+
+@curioni2022 recently explored this question in a series of experiments using a virtual "box clearing" task where it was instrumentally more costly to perform the task with a partner compared to alone. When the task was performed alone, an individual would clear boxes as quickly as possible by tapping them and could clear the boxes in any order. When the task was performed together, the total number of boxes was divided evenly between participants and arranged identically. Without communicating or looking at the other person’s workspace, the partners had to clear boxes as quickly as possible by tapping the *same* box within a pre-specified synchrony threshold.[^1] Despite joint action being the suboptimal way to complete the task, due to the additional task constraints produced by the coordination elements of the together condition, on the trials where the participant in the Decision-maker role could choose to complete the task alone or together, participants showed a consistent preference for cooperation across experiments. Interestingly, in control experiments where individuals chose between completing the same “box clearing” task either unimanually or bimanually, individuals preferred to complete the task unimanually. That is, participants chose the less costly and more optimal way to perform the task under these conditions. As bimanual actions are thought to be representative of interpersonal actions from a coordination perspective [e.g., @kourtis2014; @schmidt2008], the data from Curioni and colleagues [-@curioni2022] strongly suggest that social factors inherent to joint actions, such as a higher intrinsic reward value assigned to cooperation, may bias the computation of the utility of performing a task with another person. In the joint action version of the task, the two participants were always positioned beside each other (shoulder-to-shoulder) and performed the task on the same touchscreen device (46 in), but within their respective workspaces that were created by dividing the touchscreen in two equal halves. This physical proximity of the participants may have created a social pressure for the Decision-maker to engage in joint action, possibly through a sense of commitment [e.g., @michael2016;@michael2016a] and/or from a need to manage one’s reputation [e.g., @nowak2005].
+
+[^1]: In Experiments 1 and 2, the pre-specified time window was 200 ms. In Experiment 3 it was 250 ms and in Experiments 4 and 5 it could be either 120 or 60 ms.
+
+Here, we assessed the replicability of Curioni and colleagues' [-@curioni2022] finding that humans have a preference to perform a task cooperatively, rather than alone, despite the higher costs of coordinating with a partner. Our experiment was modeled after Experiment 1 of @curioni2022 and we extend their work in two important ways. First, we used a different task setup that naturally increased the distance between participants as each participant performed the task on separate devices. Second, we queried the participants that were randomly assigned to the Decision-maker role about their thought processes on the trials where they decided to perform the task alone or together with their partner. Based on @curioni2022, we predicted that participants would show a significant preference for performing the task with their partner compared to chance level (50%). This would support the idea that human adults have a preference for cooperating, rather than acting alone, despite the added cost of coordinating with a partner. We also predicted that on no-choice trials participants would complete the task faster alone than with a partner and that the time required to complete the task would increase with the number of boxes to clear.
+
+
+# Method
+
+We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study [@simmons2012]. Our preregistration can be accessed at <https://doi.org/10.17605/OSF.IO/EVDP5>. Data and code are available at <https://github.com/cartermaclab/expt_solo-or-joint-action>.
+
+## Participants
+
+A sample of 100 undergraduate and graduate students at McMaster University (50 human pairs, *M*~age~ = 18.51 years, *SD* = 2.01) participated in the experiment. Sample size was determined *a priori* as 2.5 times the original sample size in @curioni2022 based on the recommendations of @simonsohn2015. All participants self-reported that they were free of sensorimotor impairments and had normal or corrected-to-normal vision. Participants were compensated with $5 CAD or with course-credit for their time. All participants provided written informed consent and the experiment was approved by the McMaster Research Ethics Board.
+
+## Task and apparatus
+
+Participants performed a virtual box clearing task similar to that used in @curioni2022. In their version, participants cleared boxes by tapping a box with their finger in any order they preferred. In our version, participants cleared boxes by "hitting" a box with their virtual cursor in any order they preferred. Our task was performed using two Kinarm End-Point Labs (Kinarm; Kingston, ON, Canada) that are able to interact with each other in real-time. Each participant of a human pair was seated in an adjustable chair in front of either the left or right End-Point Lab at a height such that their forehead could rest comfortably on the system's padded headrest. This experimental setup naturally positioned the participants out of sight from one another and at a distance of 3.05 m. Each participant grasped the handle of the robotic manipulandum using their preferred hand and made reaching movements in the horizontal plane. A semi-silvered mirror blocked the vision of the upper limb and displayed virtual images from an LCD monitor. On the virtual display, participants saw their respective workspace, a cursor representing their unseen hand, and virtual boxes (i.e., targets) in a grid arrangement. Hand position was recorded at 1000 Hz and stored for offline data analysis.
+
+## Procedure
+
+Participant pairs, which were created randomly, entered the lab and were directed to sit at a desk across from one another to receive verbal and written instructions about the experiment. Within each pair, one participant performed the task in the role of the "Decision-maker" and the other in the role of the "Helper". These roles were assigned randomly and the Kinarm End-Point Lab (left or right) occupied by the Decision-maker was counterbalanced across participants. Participants were instructed that the task goal was for the Decision-maker to collect as many points as possible by clearing boxes from their workspace (1 point per box) within 30 mins. It was made clear that points were not earned for any boxes cleared by the Helper on their respective workspace. However, participants unknowingly completed a fixed number of trials, which required less time to complete than this time limit. Participants were also not permitted to communicate with one another throughout the experiment.
+
+In 50% of trials, the Decision-maker was given the choice to perform the task alone or with the Helper (choice trials). In the remaining 50% of trials, the Decision-maker was forced to do the task alone (no-choice alone; 25% of trials) or together (no-choice together; 25% of trials). The fixed number of no-choice alone and no-choice together trials were included to ensure that each pair of participants experienced the same minimum number of trials in each task mode, irrespective of the Decision-maker’s decisions in the choice trials. Within each task mode (i.e., no-choice alone, no-choice together, and choice), we manipulated the number of boxes that were displayed with either four, eight, or 12 boxes. The spatial arrangment of the boxes was randomly generated. All trial conditions were fully randomized and each number of boxes appeared an equal number of times. All pairs experienced the same randomized order of trial and box conditions.
+
+The experiment began with four familiarization trials (two no-choice alone and two no-choice together), followed by 180 experimental trials consisting of 90 choice, 45 no-choice alone, and 45 no-choice together in a random order. Each trial began with a preview of the box configuration for the upcoming trial displayed only to the Decision-maker (see Figure \ref{fig:fig1}A). Boxes were gray during the preview. Participants then moved their virtual cursor into the home position. After holding this position for 500 ms, two rectangles appeared at the bottom of the display on opposite sides of the home position. In the choice task mode, the word ALONE appeared in one rectangle and TOGETHER in the other. The Decision-maker would move their cursor into one of the two rectangles to select the task mode they wanted for the upcoming trial. In the no-choice task mode, when the two rectangles appeared only one contained text to indicate the task mode for the upcoming trial. The Decision-maker would then move their virtual cursor into this rectangle. The rectangle that the ALONE and TOGETHER text appeared in was counterbalanced across pairs. Once the Decision-maker moved their cursor into the selected (choice task mode) or the imposed (no-choice task mode) rectangle, the boxes changed from gray to orange, signifying the start of that trial. The trial ended once the last box was cleared or after 100 s elapsed. On alone trials, boxes appeared only in the Decision-maker’s workspace and thus, could only be cleared by the Decision-maker. On together trials, the boxes were evenly distributed across each participant’s workspace and appeared in the same arrangement (see Figure \ref{fig:fig1}B). During these trials, both participants had to "hit" boxes in the same grid location with their cursors, within a pre-specified time window of $\leq$ 200 ms. If they "hit" different boxes or did not "hit" the same box within the synchrony threshold, the box remained on the screen until synchronously hit. Participants had no feedback of each other’s movements and were not permitted to communicate with each other. One point was awarded for every box cleared from the Decision-maker’s workspace. A box above the participant’s workspace showed the cumulative number of points earned and was updated at the end of each trial. This design ensured that performing the task together was not only suboptimal in terms of maximizing reward (i.e., points per trial), but also increased movement costs associated with coordinating their actions (i.e., same box in $\leq$ 200 ms) with their partner.
+
+After participants completed all experimental trials, the Decision-makers were asked a series of open-ended questions regarding their decision-making processes. The Decision-makers answered these questions by typing their responses in a survey form on a laptop that were saved for later analysis. Participants were asked to answer the following questions: a) "When given the choice to do the task alone or together with the Helper, *why* did you choose to complete the task *alone*?", b) "When given the choice to do the task alone or together with the Helper, *when* did you choose to complete the task *alone*?", c) "When given the choice to do the task alone or together with the Helper, *why* did you choose to complete the task *together*?", d) "When given the choice to do the task alone or together with the Helper, *when* did you choose to complete the task *together*?", and e) "Is there anything else you would like to tell us about how you completed the task?". No follow-up questions were asked regarding participants' responses. Participants required approximately five minutes to complete this part of the experiment.
+
+\clearpage
+
+\begin{figure}[htbp]
+\caption{Overview of experimental design and task.}
+\centering
+\includegraphics[scale=1.00]{../../figs/fig1.png}
+\setlength{\belowcaptionskip}{-2em}
+\caption*{\singlespacing \small Note. \normalfont Human pairs performed a virtual "box-clearing" task in either the Decision-maker role or the Helper role. \textbf{(A)} At the start of each trial, only the Decision-maker was shown a preview of the target box arrangement for the upcoming trial and two task mode selection boxes. In the no-choice trials, the Decision-maker was instructed to select the active task mode selection box (i.e., only one contained text) by moving their cursor into the box. In the choice trials, both task mode selection boxes were active and the Decision-maker was instructed to choose one of the two task modes. \textbf{(B)} Once a task mode was selected, the selection boxes disappeared and the target boxes changed colour from gray to orange. This change in colours served as the GO-signal for participants. In alone trials, all boxes shown in the preview remained in the Decision-maker's workspace while the Helper saw an empty workspace. In together trials, the boxes were evenly distributed across each participant's workspace and appeared in the same arrangement. Trials ended once all boxes were cleared or timed out after 100 s. One point per box was earned for boxes cleared by the Decision-maker.}
+\label{fig:fig1}
+\end{figure}
+
+\clearpage
+
+## Data analysis
+
+### Choice data
+
+Our primary outcome variable was the proportion of trials in the choice task mode where the Decision-makers selected to perform the task with the Helper (i.e., to perform a joint rather than solo action). To gain better insights into the reasons the Decision-makers used when choosing to perform the task alone or together, we conducted an inductive thematic content analysis [@braun2006] to identify, analyze, and report themes within the open-ended questionnaire data. The analysis was conducted in a stepwise process. First, the primary coder (M.L.) read through all participants’ responses to the open-ended questions and made initial notes of the content of the data. This allowed the coder to become familiar with the data, specifically the depth and breadth of the responses. Next, the coder systematically worked through the entire data set, identifying segments of responses (i.e., sentences, phrases, or individual words) that shared similar ideas or topics. While identifying such segments, the coder generated labels (initial codes) for each common idea or topic. The coder then generated various levels of themes by considering how different codes could be combined to support overarching themes. The coder first consolidated the initial codes into initial themes. These initial themes were further combined to form intermediate themes. Finally, the intermediate themes were once more grouped into a final set of higher order themes. The operational definition, an example of a participant’s response, and the number of responses for each higher order theme can be found in @tbl-table1.
+
+To ensure the validity of the identified themes and a reliable portrayal of the data by the primary coder, intercoder reliability was measured during the thematic analysis process following the guidelines of @oconnor2020. This process involved comparing the agreement of coding between two coders. After grouping the initial codes into five final themes, the primary coder provided a comparison coder (J.T.) with a random selection of 50% of the codes, as well as a list of the five final themes and the respective operational definitions. The comparison coder was instructed to sort each code into one of the five themes to the best of their knowledge using the theme names and definitions. A comparison analysis was performed to determine intercoder reliability between coders, which resulted in a Cohen's $\kappa$ of .88. This value is larger than the recommended minimum value of .80 [@hruschka2004], suggesting strong intercoder reliability and confirming that the primary coder accurately represented the data within the five final themes.
+
+\clearpage
+::: {.landscape}
+
+```{r}
+#| label: tbl-table1
+#| tbl-cap-location: top
+#| tbl-cap: "The five final themes from the thematic analysis, as well as their operational definitions, intermediate and initial themes if applicable, and an example of a participant's response."
+
+library(kableExtra)
+
+#-- Super hacky solution to what seems to be a regression bug with cross-
+#-- referencing, which appears to break when longtable = TRUE
+#-- Break into two separate "tables" but first one is just to get the caption
+#-- and cross-reference setup and then the next table is the true table that is
+#-- manually placed higher up on the page with latex code
+
+tibble::tribble(
+  ~`Final theme`, ~Definition, ~`Intermediate theme`, ~`Initial theme`, ~Example,
+) |> 
+  kbl(longtable = TRUE, booktabs = TRUE, col.names = NULL)
+```
+
+\vspace*{-2cm}
+
+```{r}
+tibble::tribble(
+  ~`Final theme`, ~Definition, ~`Intermediate theme`, ~`Initial theme`, ~Example,
+  "Chose actions with greater instrumental utility", "Made decisions with the intention of reducing the time or energy needed to complete the task, and/or increasing the amount of points that could be earned.", "Reduced instrumental costs", "Maximized speed", '"I decided to do all the optional tasks alone because I knew it would be faster..." (Participant 212)',
+  "", "", "", "Minimized movement", '"I attempted to complete the task in the most effective and quickest way, moving the handle with the shortest distance possible." (Participant 111)',
+  "", "", "Reduced cognitive costs", "Minimized decisions required", '"I chose to do the task alone when there were many boxes that were far away from each other as I knew it would be difficult to choose the same boxes as the helper." (Participant 101)',
+  "", "", "", "Minimized difficult coordination", '"[I chose alone] because it was more reliable and gave more points, it eliminated the variable of having to depend on another person’s timing and thinking." (Participant 107)',
+  "", "", "Minimized task constraints", 'Completed the task in the "easiest way"', '"It was easier to complete the task alone" (Participant 404)',
+  "", "", "", "Considered the spatial arrangement of the boxes", '"[I chose together] when there was not as high of a concentration of squares, but also when they were in close proximity with each other." (Participant 203)',
+  "", "", "Maximized instrumental rewards", "NA", '"I chose to complete the task alone when I realized that the number of points I got from working together was not as much as working alone." (Participant 412)',
+  "Chose actions with greater social value", "Made decisions that were motivated by enhancing their own and/or their partner's  experience", "Maximized intrinsic rewards", "NA", '"I found it more fun and interesting when I had to complete the task together because you can see how similarly or differently you and your partner think and what each person\'s first instinct is." (Participant 312)',
+  "", "", "Prosocial behaviour", "Empathy", '"[I chose together] because I felt bad for my partner if he was left with nothing to do" (Participant 102)',
+  "", "", "", "Fairness", '"I chose to do the task together when I had done a few trials alone. I thought that my partner would be upset if I did a bunch of the trials on my own just to achieve more points, so I would sometimes choose to do them with her to make it more fair." (Participant 410)',
+  "Flexibility in decision strategy", "Open to changing their decisions throughout the experiment", "NA", "NA", '"There were some instances where I felt me and the helper changed the way we were slicing the squares to try to imitate each other..." (Participant 211)',
+  "Planned movement path", "Discussed their own individual directional patterns they typically moved in and/or the order they planned to clear boxes in", "NA", "NA", '"I noticed I tended to hit the boxes in a circular motion starting from the one closest to me, moving outwards, then returning to the starting area." (Participant 309)',
+  "Made reliable decisions", "Made decisions knowing they could perform the task consistently well in that task mode", "NA", "NA", '"[I chose alone] because it was more reliable and gave more points, it eliminated the variable of having to depend on another person\'s timing and thinking." (Participant 107)'
+) |> 
+  kbl(longtable = TRUE, booktabs = TRUE, linesep = "\\addlinespace") |> 
+  kable_styling(position = "left", font_size = 10.5) |> 
+  row_spec(0, bold = TRUE) |> 
+  column_spec(1, width = "3cm") |> 
+  column_spec(2, width = "6cm") |> 
+  column_spec(3, width = "3cm") |> 
+  column_spec(4, width = "2cm") |> 
+  column_spec(5, width = "6cm")
+```
+
+:::
+\clearpage
+
+### Box clearing data
+
+Our second outcome variable was trial completion time for no-choice trials, which was the interval of time between the boxes turning orange and the last box being cleared. Our third outcome variable was distance traveled for no-choice trials, which was the total distance that an individual’s cursor moved in the interval of time between the boxes turning orange and the last box being cleared. 
+
+```{r}
+#| echo: false
+#| output: false
+
+r_pkgs <- c("base", "afex", "easystats", "emmeans", "grateful", "here", "Hmisc", "kableExtra", "patchwork", "rcompanion", "renv", "tidyverse", "waffle")
+
+grateful::cite_packages(output = "file", out.format = "pdf", pkgs = r_pkgs, out.dir = "../", bib.file = "r-references")
+```
+
+Alpha was set to .05 for all quantitative analyses, which are described below. Corrected degrees of freedom using the Greenhouse-Geisser method are always reported when appropriate. Generalized eta squared $(\eta_{G}^{2})$ is reported as an effect size for all omnibus tests. Post-hoc comparisons were performed using the Holm-Bonferroni approach to adjust for multiple comparisons. Statistical analyses were conducted using 
+R [Version 4.4.2\; @base] and the R-packages
+*afex* [Version 1.4.1\; [@afex], 
+*easystats* [Version 0.7.4\; @easystats], 
+*emmeans* [Version 1.10.7\; @emmeans],
+*grateful* [Version 0.2.10\; @grateful],
+*here* [Version 1.0.1\; @here],
+*Hmisc* [Version 5.2.2\; @Hmisc],
+*kableExtra* [Version 1.4.0\; @kableExtra],
+*patchwork* [Version 1.3.0\; @patchwork],
+*rcompanion* [Version 2.4.36\; @rcompanion],
+*renv* [Version 1.1.0\; @renv],
+*tidyverse* [Version 2.0.0\; @tidyverse],
+and *waffle* [Version 1.0.2\; @waffle] were used in this project.
+
+# Results
+
+## Choice data
+
+Participants showed a slight preference of acting alone (*M* = 0.56, *SD* = 0.23) compared to joint action (see Figure \ref{fig:fig2}A). A two-tailed Wilcoxon signed-rank test comparing the mean proportion of together choices against a 50% chance level was not significant, *V* = 472.5, *p* = .112, *r* = -.225, 95% CI [-.0.478, 0.068]. 
+<!--# This suggests that although participants chose to perform the task alone more frequently than together, their choices were no different than choosing at random.
+-->
+
+We analyzed the proportion of together choices for each box number condition (see Figure \ref{fig:fig2}B) using a one-way repeated measures ANOVA. Participants chose to perform the task together more often when there were fewer boxes to clear, *F*(1.51, 74.06) = 16.43, *p* < .001, $\eta_{G}^{2}$ = .057. The mean proportion of together choices was greater for 4 boxes than all other numbers of boxes (*p’s* < .002) and for 8 boxes than 12 boxes (*p* = .023).
+
+Five final themes were identified (see Figure \ref{fig:fig2}C), which represented participants' reasoning behind their decisions: "chose actions with greater instrumental utility", "chose actions with greater social value", "made reliable decisions", "flexibility in decision strategy", and "planned movement path". The dominant reasoning was “chose actions with greater instrumental utility” (*n* = 258), followed by “chose actions with greater social value” (*n* = 65). The other three themes prevailed to similar extents, with the least supported theme being “made reliable decisions” (*n* = 3).
+
+\clearpage
+
+\begin{figure}[htbp]
+\caption{The proportion of selecting to perform the task together on choice trials and the frequency of the global themes underlying the decision process.}
+\centering
+\includegraphics[scale=0.675]{../../figs/fig2.pdf}
+\setlength{\belowcaptionskip}{-2em}
+\caption*{\singlespacing \small Note. \normalfont During the experiment the Decision-maker could choose to perform the task either alone or together with their Helper on 90 choice trials. These choice trials were randomly interleaved with the forced alone and forced together trials. \textbf{(A)} The mean proportion of together choices across participants which is characterized by some early fluctuation that becomes more stable over trials. The solid and dashed horizontal lines represent the 50\% chance level and the mean of all choice trials, respectively. \textbf{(B)} Boxplots of the proportion of together choices as a function of the number of boxes on choice trials. Boxplots represent the 25th, 50th, and 75th percentiles, and the solid black line denotes the mean. Grey dots connected by grey lines represent means from individual participants. \textbf{(C)} Waffle plots showing the frequency of the five final themes based on the self-reported responses to the open-ended questions administered to the Decision-maker at the end of the experiment. Each square represents a code (single unit of information) aligning with one of the five final themes. The dominant theme was "chose actions with greater instrumental utility" (orange, \emph{n} = 258) followed by "chose actions with greater social value" (blue, \emph{n} = 65). The remaining themes were far less common.
+}
+\label{fig:fig2}
+\end{figure}
+
+\clearpage
+
+The two most prominent themes were each composed of several intermediate and initial themes. Within the first theme, “chose actions with greater instrumental utility”, participants expressed desires to: reduce instrumental costs, reduce cognitive costs, minimize task constraints, and maximize instrumental rewards. Reducing instrumental costs included ideas of *maximizing speed* and *minimizing movement*, while efforts to reduce cognitive costs included *minimizing the amount of decisions required* and *minimizing difficult coordination*. Participants minimized task constraints by *completing the task in the “easiest” way* and *considering the spatial arrangement of the boxes* as ways to prioritize efficiency and complete the task with ease. These intermediate themes reflect the separate cost and reward components of instrumental utility, and highlight the complexity of the costs associated with action alternatives. For the second theme, “chose actions with greater social value”, participants reported making efforts to: maximize intrinsic rewards and engage in prosocial behaviour. Prosocial behaviours included acts of *empathy* and *fairness*, taking the Helper's feelings or perspectives into account, and choosing the task condition with the intention of being inclusive to their partner.
+
+## Box clearing data
+
+We analyzed mean trial time (see Figure \ref{fig:fig3}A) using a 2 Task Mode (Forced Alone, Forced Together) x 3 Number of Boxes (4, 8, 12) repeated measures ANOVA. The significant main effects of Task Mode, *F*(1, 49) = 74.33, *p* < .001, $\eta_{G}^{2}$ = .323, and Number of Boxes, *F*(1.57, 76.85) = 266.51, *p* < .001,  $\eta_{G}^{2}$ = .422, were superseded by a significant Task Mode × Number of Boxes interaction, *F*(1.52, 74.57) = 56.57, *p* < .001, $\eta_{G}^{2}$ = .130. Post hoc analyses revealed that participants were significantly faster at performing the task alone than together with all number of boxes (*p*'s < .006), with 4 boxes than all other numbers of boxes in both task modes (*p*'s < .001), and with 8 boxes than 12 boxes in both task modes (*p*'s < .001).
+
+To complement the trial time data we calculated the distance traveled in each trial, with data from two representative participants for each task mode and box conditions shown in Figure \ref{fig:fig3}C. We analyzed mean distance traveled (see Figure \ref{fig:fig3}B) using a 2 Task Mode (Alone, Together) x 3 Number of Boxes (4, 8, 12) repeated measures ANOVA. The significant main effects of Task Mode, *F*(1, 49) = 58.13, *p* < .001, $\eta_{G}^{2}$ = .255, and Number of Boxes, *F*(1.31, 64.22) = 370.88, *p* < .001, $\eta_{G}^{2}$ = .577, were superseded by a significant Task Mode x Number of Boxes interaction, *F*(1.30, 63.69) = 62.23, *p* < .001, $\eta_{G}^{2}$ = .173. Post hoc comparisons revealed that participants traveled a significantly shorter distance when performing the task alone than together with 8 and 12 boxes (*p*'s < .001), with 4 boxes than all other numbers of boxes in both task modes (*p*'s < .001), and with 8 boxes than 12 boxes in both task modes (*p*'s < .001).
+
+\clearpage
+
+\begin{figure}[htbp]
+\caption{Trial time and distance traveled to clear boxes on forced alone and forced together trials.}
+\centering
+\includegraphics[scale=0.5]{../../figs/fig3.pdf}
+\setlength{\belowcaptionskip}{-2em}
+\caption*{\singlespacing \small Note. \normalfont \textbf{(A)} Boxplots of mean trial time (s), which was the interval of time between the boxes turning orange and the last box cleared, for each box condition in the forced alone and forced together trials. Participants were, on average, much faster when acting alone compared to together and not surprisingly, trial time increased as the number of boxes increased in both task modes. Boxplots represent the 25th, 50th, and 75th percentiles, and the solid black line denotes the mean. Grey dots connected by grey lines represent means from individual participants. \textbf{(B)} Boxplots of mean distance traveled (m), which was the total distance that a participant's cursor moved during the interval of time between the boxes turning orange and the last box cleared, for each box condition in the forced alone and forced together trials. Participants moved, on average, less when acting alone compared to together and distance traveled increased in both task modes as the number of boxes increased. Boxplots represent the 25th, 50th, and 75th percentiles, and the solid black line denotes the mean. Grey dots connected by grey lines represent means from individual participants. \textbf{(C)} Sample hand trajectory plots for two Decision-maker (red lines) and Helper (blue lines) participant pairs for early and late forced alone and force together trials for each box condition.
+}
+\label{fig:fig3}
+\end{figure}
+
+
+\clearpage
+
+
+# Discussion
+
+We found that participants showed a modest preference for solo action over joint action, which is opposite to what @curioni2022 found. Although this preference for solo action was not significantly different from chance levels, we did find that these preferences varied considerably at the individual level (range: 0.033%-100%). This was also evident from the participants’ responses on the open-ended questionnaire. Interestingly, the slight preference we found for solo action over joint action is less than what would be expected based solely on principles of utility and optimization [@jara-ettinger2016;@jara-ettinger2020;@shadmehr2016;@todorov2004]. Thus, in line with @curioni2022, our findings suggest that humans may assign additional reward value to performing actions with another person.
+
+Our failure to replicate a preference for joint action even when it is more costly was surprising given the robustness of this effect across multiple experiments in @curioni2022. Importantly, this difference cannot be attributed to a failure on our part of not implementing a version of the box-clearing task wherein performing the task together was both more instrumentally costly and suboptimal. That is, less points could only ever be earned on together trials and all Decision-makers were, on average, significantly slower (see Figure \ref{fig:fig3}A) and made significantly more movements (except in the 4 box arrangement; see Figure \ref{fig:fig3}B) when performing the task together compared to alone. In contrast, there was a small subset of participants in Experiment 1 of @curioni2022 that were actually faster, on average, when performing the task with their Helper compared to alone. One possibility is that it is this subset of participants that drove the effect as these participants were able to reduce their coordination costs and clear boxes more efficiently through joint action. Based on the data from Experiment 4 of @curioni2022, we think this is an unlikely explanation as the strong preference for joint action was found; yet, similar to our data all Decision-makers, on average, were slower at clearing boxes and covered more distance with their partner compared to alone. We, instead, attribute our conflicting results to the differences in the physical proximity of participants between studies. When human pairs act on the same device beside one another, as in @curioni2022, it is very likely that the Decision-makers experienced increased pressure to cooperate, presumably through a desire to manage one’s reputation [@nowak2005; @wu2016] or a heightened sense of commitment [@michael2016;@michael2022]. Merely positioning participant pairs on separate devices and at a distance of approximately 3 m from each other flipped the effect to a small preference for solo action (56% in our experiment versus the 76% preference for joint action in @curioni2022). Nevertheless, participants in our experiment self-reported empathy [e.g., @rumble2010] and fairness [e.g., @szekely2023] as reasons for choosing to perform the task with the Helper, suggesting that social pressures to cooperate may have still been at play with our setup, but to a lesser extent. Further research is needed to better understand the influence of these social factors on the decision to engage, or not engage, in joint action, such as having participants in separate rooms akin to playing a game online or having participants perform the task in both the Decision-maker and Helper roles.
+
+Although the mean proportion of choosing solo trials across participants was not significantly different from chance, there was considerable variability between participants. In fact, a subset of participants always chose to perform the task alone whereas one participant chose to perform the task together on nearly every opportunity (see Figure \ref{fig:fig2}B). We suggest that participants’ choices were in fact not random and instead reflect rather highly individualized preferences. In support of this, our thematic analysis revealed that no participant described making exclusively random or unrationalized decisions—each participant self-reported at least one deliberate reason within their responses. Thus, if some kind of generic additional reward value is assigned to performing a task with another person, it may largely depend on the individual and/or socio-cultural and psychological variables not explored in the current experiment. Motivation measures, such as the Balanced Inventory of Desirable Responding [@paulhus1998] or the Ring Measure of Social Values [@liebrand1988], as well as personality inventories and other validated scales that assess individual differences could be implemented in future research to better understand the intersectionality of these factors [@appelt2011].
+
+The most prominent higher order theme identified through our thematic analysis was “chose actions with greater instrumental utility” (see Figure \ref{fig:fig2}C). The sub themes within this category revealed that the Decision-makers were mindful of the task goal (i.e., earn as many points as possible) and often aimed to maximize the utility of their actions when making their decisions. Participants frequently reported wanting to complete the task in the fastest way (overwhelmingly perceived to be the alone condition) or choosing the task condition they thought would require the least amount of movement. This behaviour aligns with the Naive Utility Calculus [@jara-ettinger2016;@jara-ettinger2020]; however, if these participants exclusively considered the instrumental factors of the action alternatives (e.g., points earned, time spent, actions required, etc), we would expect to see a much greater proportion of alone trials than we observed in the choice trials. Many participants also described choosing to work together when there were fewer boxes to clear as they perceived the task to be easier compared to when there were more boxes. With more boxes, participants described it would not only be difficult to select the same box as the Helper, but also coordinate their movements more times. In line with this, we did find that participants made significantly less together choices as the number of boxes to clear increased. Being able to predict an interaction partner’s behaviour is an important mechanism for successful coordination [@sebanz2006]. Although the identical arrangement of boxes in each workspace would allow partners to share representations of the task, the unspecified order that the boxes could be cleared made it difficult for participants to predict each other's movement path. Future work should focus on the relationship between individual costs and joint costs during joint action.
+
+Despite the abundance of utility-centered participant responses in our thematic analysis, our data, together with that of Curioni and colleagues [-@curioni2022], strongly suggest that other factors currently unaccounted for in the utility calculus may outweigh instrumental factors and motivate individuals to engage in costly joint action even when it is unnecessary. This could be represented by a *cooperation reward* variable in the calculus [@curioni2022]; an idea that is supported by our second prominent theme of “chose actions with greater social value”. For example, participants described working together as being intrinsically rewarding and that they felt motivated by the enjoyment and enrichment they experienced from the added challenge of coordinating. Others acknowledged the prosocial benefits [@eisenberg2015] associated with choosing to perform the task together with their partner [e.g., @michael2020;@obhi2011;@vanderwel2021]. These individuals empathized with the Helper, choosing together when they felt bad that their partner was left doing nothing or had not participated in a while. This resulted in some participants balancing the distribution of alone and together trials throughout the experiment as a way to be fair towards their partner. Interestingly, these participants did acknowledge that they incurred additional costs and reduced (instrumental) benefits by working together; therefore, the value derived from making the task more fair was oftentimes strong enough to offset the weight of the instrumental factors in the task.
+
+A possible limitation of our experiment is our use of a convenience sample of undergraduate students; thus, some participant pairs may have already been familiar with one another compared to others, or complete strangers. Individuals may be more inclined to interact with people they know or have previously had positive experiences working with [@hinds2000;@zander1960], as a means to increase the predictability of others' actions. 
+<!--# Similarly, partners briefly interacted with one another upon entering the lab and sat across from one another while receiving experimental instructions. These brief social interactions, such as greeting [@sandstrom2023] and making eye contact [@wesselmann2012] could have elicited feelings of social connectedness. While it may be beneficial in future research to control these factors, we argue that it was more ecologically valid to allow these brief moments of interaction to occur at the start of the experiment. 
+-->
+Similar to @curioni2022, our participant pairs were created randomly without controlling for sex, gender, age, or ethnicity. Demographics and identification with co-actors have been shown to impact decisions to cooperate [e.g., @chuah2014;@chen2012;@krumhuber2007;@levy2004], ability to coordinate [@boukarras2021], and partner choice in interactive tasks [@chuah2014;@krumhuber2007]. Exploring the influence of these factors in future research may have important practical implications, especially in workplace settings.
+
+In conclusion, we did not find a strong preference for costly cooperative action like that observed by @curioni2022. Instead, we found a slight preference for choosing individual action, but this was much lower than would be expected if these choices were solely guided by principles of optimization and utility. Our quantitative and qualitative data add further support to the idea that additional rewards are derived from the social nature of joint action [e.g., @curioni2022] and that these preferences are highly individualized.
+
+
+\vfill
+
+## Author contributions (CRediT Taxonomy)
+
+\noindent Conceptualization: ML, NAA, JT, SR, JGAC, MJC  
+Data curation: ML, MJC  
+Formal analysis: ML, JT, MJC   
+Funding acquisition: JGAC, MJC  
+Investigation: ML, NAA, JT, HH, ED, VS  
+Methodology: ML, NAA, RL, SR, JGAC, MJC  
+Project administration: ML, MJC  
+Software: ML, RL  
+Supervision: ML, JGAC, MJC  
+Validation: ML, MJC  
+Visualization: ML, MJC  
+Writing -- original draft: ML, JGAC, MJC  
+Writing -- review & editing: ML, NAA, JT, HH, ED, VS, RL, SR, JGAC, MJC
+
+## Funding
+
+\noindent This work was supported by the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC), McMaster University (MJC), and the National Science Foundation (NSF: 2146888; JGAC).
+
+## Conflicts of interest/Competing interests
+
+\noindent All authors have no conflicts of interest to disclose.
+
+## Availability of data and code
+
+\noindent Data and scripts are available at: https://github.com/cartermaclab/expt_solo-or-joint-action.
+
+\newpage
+
+# References
+
+<!-- References will auto-populate in the refs div below -->
+
+::: {#refs}
+:::
