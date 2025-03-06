@@ -70,9 +70,8 @@ author:
   - name: Rakshith Lokesh
     orcid: 0000-0001-8592-5392
     affiliations:
-      - id: id4
-        name: Northeastern University
-        department: College of Engineering
+        - name: "Department of Biology, Northeastern University"
+        - name: "Department of Electrical and Computer Engineering, Northeastern University"
     roles:
       - Methodology
       - Software - Task Programming
@@ -117,6 +116,7 @@ author:
       - Visualization
       - Writing - Original Draft Preparation
       - Writing - Review & Editing
+mask: true
 author-note:
   status-changes: 
     affiliation-change: ~
@@ -173,7 +173,7 @@ We report how we determined our sample size, all data exclusions (if any), all m
 
 ## Participants
 
-A sample of 100 undergraduate and graduate students at McMaster University (50 human pairs, *M*~age~ = 18.51 years, *SD* = 2.01) participated in the experiment. Sample size was determined *a priori* as 2.5 times the original sample size in @curioni2022 based on the recommendations of @simonsohn2015. All participants self-reported that they were free of sensorimotor impairments and had normal or corrected-to-normal vision. Participants were compensated with $5 CAD or with course-credit for their time. All participants provided written informed consent and the experiment was approved by the McMaster Research Ethics Board.
+A sample of 100 undergraduate and graduate students (50 human pairs, *M*~age~ = 18.51 years, *SD* = 2.01) participated in the experiment. Sample size was determined *a priori* as 2.5 times the original sample size in @curioni2022 based on the recommendations of @simonsohn2015. All participants self-reported that they were free of sensorimotor impairments and had normal or corrected-to-normal vision. Participants were compensated with $5 CAD or with course-credit for their time. All participants provided written informed consent and the experiment was approved by the University's Research Ethics Board.
 
 ## Task and apparatus
 
@@ -367,13 +367,10 @@ In conclusion, we did not find a strong preference for costly cooperative action
 # Declarations
 
 \noindent
-**Funding.** &nbsp;This work was supported by the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC), McMaster University (MJC), and the National Science Foundation (NSF: 2146888; JGAC).
-
-\noindent
 **Conflicts of interest/Competing interests.** &nbsp;None.
 
 \noindent
-**Ethics approval.** &nbsp;This project was approved and conducted in accordance with the approval of the McMaster University Research Ethics Board.
+**Ethics approval.** &nbsp;This project was approved and conducted in accordance with the approval of the University's Research Ethics Board.
 
 \noindent
 **Consent to participate.** &nbsp;All participants gave informed consent.
