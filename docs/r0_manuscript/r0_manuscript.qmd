@@ -367,6 +367,9 @@ In conclusion, we did not find a strong preference for costly cooperative action
 # Declarations
 
 \noindent
+**Funding.** &nbsp;This work was supported by the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC), McMaster University (MJC), and the National Science Foundation (NSF: 2146888; JGAC).
+
+\noindent
 **Conflicts of interest/Competing interests.** &nbsp;None.
 
 \noindent
