@@ -169,7 +169,8 @@ Here, we assessed the replicability of Curioni and colleagues' [-@curioni2022] f
 
 # Method
 
-We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study [@simmons2012]. Our preregistration can be accessed at <https://doi.org/10.17605/OSF.IO/EVDP5>. Data and code are available at <https://github.com/cartermaclab/expt_solo-or-joint-action>.
+We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study [@simmons2012]. Our preregistration can be accessed at <https://doi.org/10.17605/osf.io/evdp5>. Data and code are available at <https://osf.io/fq3mz/?view_only=8dffee7f8b364159b30ec8527ee0c498>.
+<!-- Data and code are available at <https://github.com/cartermaclab/expt_solo-or-joint-action>.-->
 
 ## Participants
 
@@ -367,7 +368,7 @@ In conclusion, we did not find a strong preference for costly cooperative action
 # Declarations
 
 \noindent
-**Funding.** &nbsp;This work was supported by the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC), McMaster University (MJC), and the National Science Foundation (NSF: 2146888; JGAC).
+**Funding.** &nbsp;This work was supported by [anonymized source], [anonymized source], and [anonymized source].
 
 \noindent
 **Conflicts of interest/Competing interests.** &nbsp;None.
@@ -382,7 +383,8 @@ In conclusion, we did not find a strong preference for costly cooperative action
 **Consent for publication.** &nbsp;All authors approve the manuscript.
 
 \noindent
-**Availability of data, materials, and code** &nbsp;Can be accessed at https://github.com/cartermaclab/expt_solo-or-joint-action.
+**Availability of data, materials, and code** &nbsp;Can be accessed at <https://osf.io/fq3mz/?view_only=8dffee7f8b364159b30ec8527ee0c498>.
+<!-- Can be accessed at https://github.com/cartermaclab/expt_solo-or-joint-action. -->
 
 \newpage
 
