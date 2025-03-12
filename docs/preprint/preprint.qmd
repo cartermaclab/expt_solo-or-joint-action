@@ -5,40 +5,33 @@ author:
   - name: Mikayla Lalli
     orcid: 0000-0003-2589-7216
     affiliations:
-      - id: id1
+      - name: "Department of Kinesiology, McMaster University"
   - name: Nour Al Afif
     orcid: 0009-0006-8948-8795
     affiliations: 
-      - ref: id1
+      - name: "Department of Kinesiology, McMaster University"
   - name: Jiaqiao Tang
     orcid: 0009-0003-0265-4569
     affiliations:
-      - ref: id1
+      - name: "Department of Kinesiology, McMaster University"
   - name: Hibaa Hasan
     affiliations:
-      - id: id2
-        name: McMaster University
-        department: Department of Psychology, Neuroscience & Behaviour
+      - name: "Department of Psychology, Neuroscience & Behaviour, McMaster University"
   - name: Enuri Dissanayake
     affiliations:
-      - id: id3
-        name: McMaster University
-        department: School of Interdisciplinary Science
+      - name: "School of Interdisciplinary Science, McMaster University"
   - name: Vida Sussman
     affiliations:
-      - ref: id2
+      - name: "Department of Psychology, Neuroscience & Behaviour, McMaster University"
   - name: Rakshith Lokesh
     orcid: 0000-0001-8592-5392
     affiliations:
-      - id: id4
-        name: Northeastern University
-        department: College of Engineering
+      - name: "Department of Biology, Northeastern University"
+      - name: "Department of Electrical and Computer Engineering, Northeastern University"
   - name: Scott Rathwell
     orcid: 0000-0001-8775-1664
     affiliations:
-      - id: id5
-        name: University of Lethbridge
-        department: Department of Kinesiology & Physical Education
+      - name: "Department of Kinesiology & Physical Education, University of Lethbridge"
   - name: Joshua G.A. Cashaback
     orcid: 0000-0002-8642-6648
     affiliations:
@@ -49,7 +42,7 @@ author:
     orcid: 0000-0002-0675-4271
     email: cartem11@mcmaster.ca
     affiliations:
-      - ref: id1
+      - name: "Department of Kinesiology, McMaster University"
 author-note:
   status-changes: 
     affiliation-change: ~
@@ -126,7 +119,7 @@ After participants completed all experimental trials, the Decision-makers were a
 \begin{figure}[htbp]
 \caption{Overview of experimental design and task.}
 \centering
-\includegraphics[scale=1.00]{../../figs/fig1.png}
+\includegraphics[scale=1.00]{../../figs/fig1.pdf}
 \setlength{\belowcaptionskip}{-2em}
 \caption*{\singlespacing \small Note. \normalfont Human pairs performed a virtual "box-clearing" task in either the Decision-maker role or the Helper role. \textbf{(A)} At the start of each trial, only the Decision-maker was shown a preview of the target box arrangement for the upcoming trial and two task mode selection boxes. In the no-choice trials, the Decision-maker was instructed to select the active task mode selection box (i.e., only one contained text) by moving their cursor into the box. In the choice trials, both task mode selection boxes were active and the Decision-maker was instructed to choose one of the two task modes. \textbf{(B)} Once a task mode was selected, the selection boxes disappeared and the target boxes changed colour from gray to orange. This change in colours served as the GO-signal for participants. In alone trials, all boxes shown in the preview remained in the Decision-maker's workspace while the Helper saw an empty workspace. In together trials, the boxes were evenly distributed across each participant's workspace and appeared in the same arrangement. Trials ended once all boxes were cleared or timed out after 100 s. One point per box was earned for boxes cleared by the Decision-maker.}
 \label{fig:fig1}
