@@ -368,22 +368,22 @@ In conclusion, we did not find a strong preference for costly cooperative action
 # Declarations
 
 \noindent
-**Funding.** &nbsp;This work was supported by [anonymized source], [anonymized source], and [anonymized source].
+**Funding.** \space This work was supported by [anonymized source], [anonymized source], and [anonymized source].
 
 \noindent
-**Conflicts of interest/Competing interests.** &nbsp;None.
+**Conflicts of interest/Competing interests.** \space None.
 
 \noindent
-**Ethics approval.** &nbsp;This project was approved and conducted in accordance with the approval of the University's Research Ethics Board.
+**Ethics approval.** \space This project was approved and conducted in accordance with the approval of the University's Research Ethics Board.
 
 \noindent
-**Consent to participate.** &nbsp;All participants gave informed consent.
+**Consent to participate.** \space All participants gave informed consent.
 
 \noindent
-**Consent for publication.** &nbsp;All authors approve the manuscript.
+**Consent for publication.** \space All authors approve the manuscript.
 
 \noindent
-**Availability of data, materials, and code** &nbsp;Can be accessed at <https://osf.io/fq3mz/?view_only=8dffee7f8b364159b30ec8527ee0c498>.
+**Availability of data, materials, and code.** \space Available at <https://osf.io/fq3mz/?view_only=8dffee7f8b364159b30ec8527ee0c498>.
 <!-- Can be accessed at https://github.com/cartermaclab/expt_solo-or-joint-action. -->
 
 \newpage
