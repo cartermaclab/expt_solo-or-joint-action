@@ -169,7 +169,7 @@ Here, we assessed the replicability of Curioni and colleagues' [-@curioni2022] f
 
 # Method
 
-We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study [@simmons2012]. Our preregistration can be accessed at <https://doi.org/10.17605/osf.io/evdp5>. Data and code are available at <https://osf.io/fq3mz/?view_only=8dffee7f8b364159b30ec8527ee0c498>.
+We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study [@simmons2012]. Our preregistration is available at <https://osf.io/evdp5/?view_only=e563ac68c50e424d9da8a7f4888ea3e5>. Data and code are available at <https://osf.io/fq3mz/?view_only=8dffee7f8b364159b30ec8527ee0c498>.
 <!-- Data and code are available at <https://github.com/cartermaclab/expt_solo-or-joint-action>.-->
 
 ## Participants
